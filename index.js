@@ -44,3 +44,8 @@ const animalShelterData = {
         { name: "Cozy Paws Sanctuary", location: "456 Oak Avenue, Townsburg" }
     ]
 };
+
+
+app.listen(3000, () => {
+  console.log(`The Adoption Server is Running!`)
+});
